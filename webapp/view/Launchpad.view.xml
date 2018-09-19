@@ -2,13 +2,9 @@
 	<App id="App">
 		<pages>
 			<Page title="{i18n>title}">
-				<content>
-				    <TileContainer editable="false" allowAdd="false" id="__container0">
-				        <tiles>
-				            <StandardTile title="Weather" info="Info" icon="sap-icon://weather-proofing" number="123" id="__tile0" numberUnit="Celsius" press="goToWeatherl24h" removable="false" iconDensityAware="false"/>
-				            </tiles>
-				    </TileContainer>
-				</content>
+			<content>
+			    <GenericTile header="Hallo" subheader="Sub Header" id="Hallo" press="action" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" action:wiring="\{'press':\{'navigation':\{'routeName':'Weather'\}\}\}"/>
+			</content>
 			</Page>
 		</pages>
 	</App>
