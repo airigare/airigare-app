@@ -3,7 +3,7 @@
 		<pages>
 			<Page title="{i18n>title}">
 			<content>
-			    <GenericTile header="Hallo" subheader="Sub Header" id="Hallo" press="action" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" action:wiring="\{'press':\{'navigation':\{'routeName':'Weather'\}\}\}"/>
+			    <GenericTile header="Hallo Hallo" subheader="Sub Header" id="weather" press="action" xmlns:action="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" action:wiring="\{'press':\{'navigation':\{'routeName':'Weather'\}\}\}"/>
 			</content>
 			</Page>
 		</pages>
