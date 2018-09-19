@@ -9,7 +9,7 @@ sap.ui.define([
 		onInit: function() {
 			var that = this;
 
-			var url = "https://mikmak.cc:3001/mikmakAPI/airigare/weatherDW/last24hours/";
+			var url = "mikmakAPI/airigare/weatherDW/last24hours/"; //https://mikmak.cc:3001/
 			$
 				.ajax({
 					url: url,
